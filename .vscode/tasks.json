@@ -64,6 +64,17 @@
       "label": "Enable Discovery and Deploy RiskManagement",
       "taskType": "Deploy",
       "enableDiscovery": "true"
+    },
+    {
+      "type": "build.mta",
+      "label": "Build MTA: RiskManagement - PT",
+      "taskType": "Build",
+      "projectPath": "/home/user/projects/RiskManagement",
+      "extensions": [],
+      "ui5theme": "sap_horizon",
+      "vendorDependency": false,
+      "buildCodeServicePlan": false,
+      "subdomain": ""
     }
   ]
 }
